@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/preguntas.js"></script>
+    <script src="./assets/js/puntaje.js"></script>
+    <script defer src="./assets/js/app.js"></script>
+    <title>Preguntas De futbol</title>
+    <!--<style>
+        .opciones .opcion-respuesta{
+    background: var(--white);
+    margin: 9px;
+    text-align: center;
+    border-radius: 12.2px;
+    border: 3px solid orange;
+    cursor: pointer;
+    font-family: 'Lucida Sans Regular';
+}
+    </style> -->
+</head>
+<body>
+    <header>
+        <h1>NICOLAS HERRERA</h1>
+    </header>
+    <main>
+        <div class="question">
+            <h3 id="pregunta">Aqui va la pregunta</h3><br>
+            <img id="imagen" class="img" src="./assets/img/prueba.jpg" alt="Imagen">
+        </div>
+        <div class="opciones">
+            <div  class="opcion-respuesta" id="opcion-1" onclick="selecionarOpcion(0)">
+                <span>Opcion 1</span>
+            </div>
+            <div class="opcion-respuesta" id="opcion-2" onclick="selecionarOpcion(1)">
+                <span>Opcion 2</span>
+            </div>
+            <div class="opcion-respuesta" id="opcion-3" onclick="selecionarOpcion(2)">
+                <span>Opcion 3</span>
+            </div>
+            <div class="opcion-respuesta" id="opcion-4" onclick="selecionarOpcion(3)">
+                <span>Opcion 4</span>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <div class="abajo">
+            <p>Jovenes Creativos Proyecto final <b>Nicolas Herrera Sepulveda</b> </p> 
+        </div>
+    </footer>
+</body>
+</html>

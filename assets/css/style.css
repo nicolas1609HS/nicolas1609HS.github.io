@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s;
+}
+:root{
+    --green: #00FF00;
+    --white: #FFFFFF;
+    --red: #ff0000;
+}
+header{
+    background: orange;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    height: 90px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+header h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+main{
+    background: black;
+    margin-top: 50px;
+    padding: 10px;
+    height: 400px;
+}
+.question{
+    background: white;
+    text-align: center;
+    height: 150px;
+    border-radius: 20px;
+    border: 5px solid orange;
+}
+.question h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.question img{
+    width: 90%;
+    height: 100px;
+    object-fit: contain;
+}
+.opciones{
+    margin-top: 20px;
+}
+.opciones .opcion-respuesta{
+    background: var(--white);
+    margin: 9px;
+    text-align: center;
+    border-radius: 12.2px;
+    border: 3px solid orange;
+    cursor: pointer;
+    font-family: 'Lucida Sans Regular';
+}
+.opciones .opcion-respuesta:hover{
+    background: lightgray;
+    transform: scale(1.015);
+}
+
+footer{
+    background: black;
+    height: 36.49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.abajo{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 90%;
+    background: orange;
+    border-radius: 7px;
+    border: 2px solid white;
+    justify-content: center;
+    align-items: center; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+
+
+
+
+/*.opciones .opcion-respuesta-correcta{
+    background: var(--green);
+}
+.opciones .opcion-respuesta-incorrecta{
+    background: var(--red);
+}*/
